@@ -1,0 +1,243 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url("../../files/fonts/open-sans-bold.woff");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("../../files/fonts/opens-sans-regular.woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("../../files/fonts/open-sans-semibold.woff");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("../../files/fonts/open-sans-extrabold.woff");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("../../files/fonts/open-sans-italic.woff");
+  font-style: italic;
+}
+body {
+  font-size: 15px;
+  margin: 0 auto;
+  font-family: "OpenSans";
+}
+
+h1, h2, h3, h4, h5, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1240px;
+  padding: 0 20px;
+}
+
+header {
+  background: #f6f2f2;
+  padding-top: 30px;
+  height: 688px;
+}
+@media screen and (max-width: 1150px) {
+  header {
+    height: 750px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  header {
+    height: 780px;
+  }
+}
+@media screen and (max-width: 660px) {
+  header {
+    height: 450px;
+  }
+}
+
+.header__top {
+  background: #313030;
+  display: flex;
+  justify-content: center;
+  height: 90px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  padding: 0 10px;
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+  padding: 0px 1.6em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.1em;
+  text-align: center;
+  white-space: nowrap;
+}
+.nav__link:hover {
+  background-color: red;
+}
+@media screen and (max-width: 860px) {
+  .nav__link {
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 860px) {
+  .nav__link {
+    font-size: 0.8em;
+  }
+}
+
+.main-section1 {
+  margin-top: 65px;
+}
+
+.section-one {
+  margin-top: 100px;
+  display: flex;
+}
+.section-one__left {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 1150px) {
+  .section-one__left {
+    align-items: center;
+    text-align: center;
+  }
+}
+.section-one__title {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 3.6em;
+  letter-spacing: 5px;
+}
+@media screen and (max-width: 1150px) {
+  .section-one__title {
+    font-size: 3.4em;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 560px) {
+  .section-one__title {
+    font-size: 3em;
+  }
+}
+@media screen and (max-width: 460px) {
+  .section-one__title {
+    font-size: 2em;
+  }
+}
+.section-one__parag {
+  margin-top: 20px;
+  max-width: 520px;
+  font-size: 1em;
+  font-weight: 400;
+  color: #6f6d6d;
+  white-space: pre-line;
+  line-height: 1.6em;
+}
+@media screen and (max-width: 1150px) {
+  .section-one__parag {
+    font-size: 0.9em;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 460px) {
+  .section-one__parag {
+    font-size: 0.7em;
+  }
+}
+.section-one__btn {
+  background: red;
+}
+.section-one__btn:hover {
+  transition: 0.1s linear;
+  background: #FF3D00;
+}
+.section-one__rigth {
+  display: flex;
+  padding-left: 10px;
+}
+@media screen and (max-width: 1150px) {
+  .section-one {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
+
+.video {
+  background: #c4c0b1;
+  height: 23.7em;
+  width: 36.6em;
+  padding: 20px;
+  box-shadow: -1px 15px 130px -12px #cdcaca;
+  position: relative;
+}
+.video__icon {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+@media screen and (max-width: 960px) {
+  .video {
+    height: 19.7em;
+    width: 32.6em;
+  }
+}
+@media screen and (max-width: 960px) {
+  .video {
+    height: 19.7em;
+    width: 32.6em;
+  }
+}
+@media screen and (max-width: 660px) {
+  .video {
+    display: none;
+  }
+}
+
+.btn__box {
+  margin-top: 50px;
+}
+@media screen and (max-width: 660px) {
+  .btn__box {
+    margin-top: 30px;
+  }
+}
+
+.btn {
+  padding: 0.7em 4em;
+  border-radius: 0.33em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+@media screen and (max-width: 660px) {
+  .btn {
+    padding: 0.5em 3.5em;
+  }
+}
