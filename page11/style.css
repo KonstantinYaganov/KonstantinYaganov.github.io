@@ -39,6 +39,10 @@ a {
   color: white;
 }
 
+li, ul {
+  list-style-type: none;
+}
+
 *,
 *::after,
 *::before {
@@ -435,10 +439,10 @@ header {
   font-weight: 600;
   padding: 0 15px;
   white-space: nowrap;
+  transition: 0.1 linear;
 }
 .product__link:hover {
   color: red;
-  transition: 0.1 linear;
 }
 @media screen and (max-width: 1024px) {
   .product__link {
@@ -600,6 +604,7 @@ header {
   font-style: italic;
   font-size: 1.2em;
   color: #585858;
+  transition: 0.1 linear;
 }
 .social__link + .social__link {
   margin-left: 30px;
@@ -615,7 +620,6 @@ header {
   }
 }
 .social__link:hover {
-  transition: 0.1 linear;
   text-decoration: underline;
 }
 @media screen and (max-width: 760px) {
@@ -952,14 +956,13 @@ header {
 
 .footer {
   background: #313030;
-  height: 12 0px;
 }
 
 .copyright {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 40px;
+  padding: 40px 0;
 }
 .copyright__parag {
   color: #b8b8b8;
