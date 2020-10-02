@@ -439,7 +439,6 @@ header {
   font-weight: 600;
   padding: 0 15px;
   white-space: nowrap;
-  transition: 0.1 linear;
 }
 .product__link:hover {
   color: red;
@@ -604,7 +603,6 @@ header {
   font-style: italic;
   font-size: 1.2em;
   color: #585858;
-  transition: 0.1 linear;
 }
 .social__link + .social__link {
   margin-left: 30px;
